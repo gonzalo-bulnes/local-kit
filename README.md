@@ -33,6 +33,12 @@ _Local Kit_ uses [Font Awesome][font-awesome]!
 
   [font-awesome]: http://fortawesome.github.com/Font-Awesome
 
+The [localkit.io](http://localkit.io) background map is a modified version of [this Wikimedia Commons file][map-original] by [NuclearVacuum][map-original-author].
+
+  [map-original]: http://commons.wikimedia.org/wiki/File:BlankMap-World_1985.svg
+  [map-original-author]: http://commons.wikimedia.org/wiki/User:NuclearVacuum
+
+
 License
 -------
 
