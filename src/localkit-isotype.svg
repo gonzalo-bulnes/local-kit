@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="59.927311"
+   height="130.8508"
+   id="svg36222"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="localkit-isotype.svg">
+  <title
+     id="title2983">Local Kit Isotype</title>
+  <defs
+     id="defs36224" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="-10.85572"
+     inkscape:cy="60.341375"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata36227">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Local Kit Isotype</dc:title>
+        <dc:date>2013-12-05</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Gonzalo Bulnes Guilpain</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Gonzalo Bulnes Guilpain</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Gonzalo Bulnes Guilpain</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-384.32206,-352.65107)">
+    <path
+       sodipodi:nodetypes="cccccccccc"
+       inkscape:connector-curvature="0"
+       id="path13338"
+       d="m 408.30091,354.68937 0.015,106.0547 c -8.02953,-7.908 -13.3734,-13.5474 -21.42951,-21.4284 l -2.56434,14.3377 c 13.37661,13.156 19.68561,19.0441 30.73014,29.8485 10.84248,-11.129 21.99129,-22.4841 29.19717,-29.8485 l -2.50995,-14.4274 c -7.99122,8.1656 -13.47282,13.3966 -21.4371,21.5884 l -0.0966,-108.1633 z"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#33333f;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       mask="none"
+       clip-path="none" />
+  </g>
+</svg>
