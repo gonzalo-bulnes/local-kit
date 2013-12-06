@@ -75,9 +75,9 @@
      inkscape:window-height="744"
      id="namedview2455"
      showgrid="false"
-     inkscape:zoom="0.25"
-     inkscape:cx="635.49755"
-     inkscape:cy="202.82417"
+     inkscape:zoom="1"
+     inkscape:cx="519.24019"
+     inkscape:cy="669.00496"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -36413,5 +36413,18 @@
          y="2214.7131"
          id="tspan8743"
          style="font-size:51.60615921px">the clip of the map to see the pattern!</tspan></text>
+    <text
+       transform="matrix(0.99685485,0.07924897,-0.07924897,0.99685485,0,0)"
+       sodipodi:linespacing="125%"
+       id="text8508"
+       y="1598.6646"
+       x="505.90445"
+       style="font-size:464.45541382px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Cabin;-inkscape-font-specification:Cabin"
+       xml:space="preserve"><tspan
+         style="font-size:51.60615921px"
+         id="tspan8512"
+         y="1598.6646"
+         x="505.90445"
+         sodipodi:role="line">Original (Public Domain): http://commons.wikimedia.org/wiki/File:BlankMap-World_1985.svg</tspan></text>
   </g>
 </svg>
