@@ -1,1 +1,274 @@
-Local Kit
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Local Kit - An open-minded way to welcome (y)our fellow developers</title>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+      html, body {
+        /* Sources are in src/ */
+        background: #fff url('images/origami-color.png') fixed repeat 1.1rem 5.3rem;
+        font-family: Ubuntu, sans-serif;
+        font-size: 1rem;
+      }
+
+      /* Override Bootstrap */
+      .jumbotron h1 {
+        font-family: Ubuntu, sans-serif;
+      }
+
+      *::-moz-selection {
+        background-color: #f0f;
+      }
+      a::-moz-selection {
+        color: #fff;
+      }
+
+      header,
+      footer {
+        background-color: #fff;
+      }
+
+      .localkit {
+        display: block;
+        float: left;
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 6rem;
+      }
+      .localkit .kit {
+        font-weight: 500;
+      }
+      .localkit img {
+        height: 5rem;
+        margin-bottom: 1rem;
+      }
+
+      .motto {
+        color: #666;
+        display: inline-block;
+        float: left;
+        font-weight: 300;
+        line-height: 4rem;
+        margin: 2rem 1.5rem 0;
+      }
+
+      .featured {
+        color: #f0f;
+      }
+      .featured:focus,
+      .featured:hover,
+      .featured:active {
+        color: #b0b;
+      }
+
+      nav ol {
+        height:  6rem;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: right;
+      }
+      nav li {
+        display: inline-block;
+        margin-top: 1.5rem;
+      }
+      nav a {
+        display: block;
+        font-size: 1.2rem;
+        line-height: 4rem;
+        margin: .5rem 0 0;
+        padding: 0 .5rem;
+      }
+
+      footer {
+        color: #666;
+        font-weight: 300;
+        line-height: 6rem;
+      }
+      footer .fa.fa-heart {
+        color: #f0f;
+      }
+
+      /* Not yet implemented
+      #teaser .jumbotron {
+        background-color: transparent;
+        background-color: rgba(255, 255, 255, 0.7)
+      }
+      #teaser .localkit {
+        float: none;
+        display: block;
+        font-size: 8rem;
+        line-height: 12rem;
+      }
+      #teaser .localkit img {
+        height: 10rem;
+      }
+      #teaser .subtitle {
+        font-size: 1.3rem;
+      }*/
+
+      .jumbotron .subtitle {
+        font-style: italic;
+      }
+
+      #about {
+        margin-top: 4rem;
+      }
+      #about .jumbotron {
+        background-color: #fff;
+      }
+      #about .jumbotron em {
+        color: #f0f;
+      }
+
+      #contribute .jumbotron {
+        background-color: transparent;
+        color: #333;
+      }
+      #contribute h1 {
+        text-shadow: 6px 0 0 rgba(255, 255, 0, 1), 0 6px 0 rgba(255, 0, 255, 1), 0 -6px 0 rgba(0, 255, 255, 1), -6px 0 0 rgba(255, 0, 255, 1);
+        margin-bottom: 1rem;
+        color: #111;
+      }
+      #contribute p {
+        background-color: #fff;
+        border-radius: 4px;
+        padding: 1rem;
+      }
+      #us {
+        margin: 1rem 0;
+        color: #111;
+      }
+
+      #featured .jumbotron {
+        /* Background image derived from:
+         * http://commons.wikimedia.org/wiki/File:BlankMap-World_1985.svg
+         *
+         * Sources are in src/
+         *
+         * Original author: NuclearVacuum,
+         * see http://commons.wikimedia.org/wiki/User:NuclearVacuum
+         */
+        background: #fff url('images/america.png') fixed no-repeat 4rem 0rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container" id="main">
+        <div class="row">
+          <div class="col-lg-8">
+            <span class="localkit">
+              <img src="localkit-isotype.svg" alt="" />
+              local<span class="kit">kit</span>
+            </span>
+            <span class="motto">An open-minded way to welcome (y)our fellow developers</span>
+          </div><!-- .col -->
+          <div class="col-lg-4">
+            <nav>
+              <ol>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contribute">Join us!</a></li>
+                <li><a href="#featured" class="featured">Featured</a></li>
+                <!--<li><a href="#faq"><abbr title="Frecuently Asked Questions">FAQ</abbr></a></li>-->
+              </ol>
+            </nav>
+          </div><!-- .col -->
+        </div><!-- .row -->
+      </div><!-- .container -->
+    </header>
+
+    <!-- Not yet implemented
+    <section id="teaser">
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <h1>
+                <span class="localkit">
+                  <img src="localkit-isotype.svg" alt="" />
+                  local<span class="kit">kit</span>
+                </span>
+                <span class="motto subtitle">An open-minded way to welcome (y)our fellow developers</span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="about" data-type="background" data-speed="10">
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-8 col-md-offset-2">
+              <h1>Ever wondered how a&nbsp;personal&nbsp;ID&nbsp;number looks&nbsp;like in&nbsp;Chile?</h1>
+              <p class="subtitle">And&nbsp;in&nbsp;Thailand, Ireland or&nbsp;Senegal? Or&nbsp;how to&nbsp;validate&nbsp;them? How to do business&nbsp;there?</p>
+              <p>Every day, we use software which solves geographically, culturally, let's&nbsp;say&nbsp;locally-specific problems (which include performing national payments online or getting financial indicators). From time to time we write that software.</p>
+              <p><em>Local Kit</em> makes easy to share locally-specific software, to find it and to&nbsp;get&nbsp;in&nbsp;touch with skilled developers wherever you go.</p>
+            </span></p>
+            </div><!-- .col -->
+          </div><!-- .row -->
+        </div><!-- .container -->
+      </div><!-- .jumbotron -->
+    </section>
+
+    <section id="contribute" data-type="background" data-speed="10">
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-6">
+              <h1>Who are we? How to contribute?</h1>
+            </div><!-- .col -->
+            <div class="col-xs-6" id="us">
+              <p>We are designers, developers, we love our work, we believe diverse, open-minded and skilled individuals make better teams, better companies and better software together.</p>
+            </div><!-- .col -->
+          </div><!-- .row -->
+          <div class="row">
+            <div class="col-xs-12">
+              <p>We love open-source, and are glad you're thinking to contribute. It's easy by the way, get in touch with Local Kit contributors near of you, or <a href="https://github.com/gonzalo-bulnes/local-kit/fork">fork the Local Kit repository</a> on Github <i class="fa fa-github"></i>, add your own Local Kit to the <b>Active Local Kits</b> list and open a pull-request.</p>
+            </div><!-- .col -->
+          </div><!-- .row -->
+        </div><!-- .container -->
+      </div><!-- .jumbotron -->
+    </section>
+
+    <section id="featured" data-type="background" data-speed="10">
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-6 col-md-offset-6">
+              <h1>Use it in <a href="https://github.com/acidlabs/chilean-local-kit" title="Chilean Local Kit on Github">Chile</a>,</br> reproduce it everywhere</h1>
+              <p class="subtitle">The first Local Kit is made in Chile and contains RubyGems and Angular.js modules.</p>
+              <i clasS="fa fa-github"></i> <a href="https://github.com/acidlabs/chilean-local-kit">Chilean Local Kit</a> <small>maintained by <a href="http://www.acid.cl">Acid Labs</a></small>
+              </br><a href="https://github.com/acidlabs/chilean-local-kit"><img src="http://b.repl.ca/v1/localkit-CL-brightgreen.png" alt=""/></a>
+            </div><!-- .col -->
+          </div><!-- .row -->
+        </div><!-- .container -->
+      </div><!-- .jumbotron -->
+    </section>
+
+    <!-- http://b.repl.ca/v1/localkit-chile-ff00aa.png -->
+
+    <footer>
+      <div  class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-5">
+            <span>Copyright &copy; 2013 <a href="https://github.com/gonzalo-bulnes">Gonzalo Bulnes Guilpain</a></span>
+          </div><!-- .col -->
+          <div class="col-xs-12 col-md-3">
+            <span><i class="fa fa-github"></i> <a href="https://github.com/gonzalo-bulnes/local-kit">Join Locak Kit on Github!</a></span>
+          </div><!-- .col -->
+          <div class="col-xs-12 col-md-4">
+            <span class="pull-right">We <i class="fa fa-heart"></i> free and open-source software.</span>
+          </div><!-- .col -->
+        </div><!-- .row -->
+      </div><!-- .container -->
+    </footer>
+
+    <script src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
