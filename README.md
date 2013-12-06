@@ -26,3 +26,23 @@ Contributing is easy
   1. Fork this repo and add your own to the **Active Local Kits** list so other know where to find you.
   2. PR to me so I can update the _localkit.io_ page
   3. Start talking about it around you, and keep in touch with other local kits maintainers : )
+
+Credits
+-------
+
+_Local Kit_ uses [Font Awesome][font-awesome]!
+
+  [font-awesome]: http://fortawesome.github.com/Font-Awesome
+
+License
+-------
+
+    Local Kit
+    Copyright (C) 2013 Gonzalo Bulnes Guilpain
+
+    Permission is granted to copy, distribute and/or modify this
+    document under the terms of the GNU Free Documentation License,
+    Version 1.3 or any later version published by the Free Software
+    Foundation; with no Invariant Sections, no Front-Cover Texts and
+    no Back-Cover Texts.  A copy of the license is included in the
+    file named "LICENSE".
