@@ -1,5 +1,7 @@
 <img src="https://github.com/gonzalo-bulnes/local-kit/raw/gh-pages/images/localkit-logotype-variation.png" alt="Local Kit" height="105" width="357" />
 
+[![Local Kit](http://b.repl.ca/v1/localkit-is%20awesome-ff00aa.png)](http://localkit.io)
+
 Let's DRY together!
 
 Every day we use software to validate personal ID numbers, make national payments online, get local financial indicators. Those pieces of code are almost always very specific to a geographic area, a local set of rules or cultural habits, or a particular legislation. Let's call them _locally-specific_
