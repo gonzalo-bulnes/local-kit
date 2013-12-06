@@ -1,5 +1,4 @@
-Local Kit
-=========
+<img src="https://github.com/gonzalo-bulnes/local-kit/raw/gh-pages/images/localkit-logotype-variation.png" alt="Local Kit" height="170" width="444" />
 
 Let's DRY together!
 
