@@ -12,6 +12,7 @@ We believe in open-source and software freedom, we believe in collaboration and 
 Active Local Kits
 -----------------
 
+  - [Chilean Local Kit (CL)](https://github.com/acidlabs/chilean-local-kit), maintained by [Acid Labs](https://github.com/acidlabs)
   - `<link to your repo with your Local Kit name>`, maintained by `<your github username>`
 
 Contributing is easy
