@@ -30,6 +30,12 @@
         background-color: #fff;
       }
 
+      #contribute p {
+        box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+        border: 1px solid #f0f0f0;
+      }
+
+
       .localkit {
         display: block;
         float: left;
@@ -113,11 +119,9 @@
         font-style: italic;
       }
 
-      #about {
-        margin-top: 4rem;
-      }
       #about .jumbotron {
         background-color: #fff;
+        margin-bottom: 0;
       }
       #about .jumbotron em {
         color: #f0f;
@@ -126,15 +130,16 @@
       #contribute .jumbotron {
         background-color: transparent;
         color: #333;
+        padding-top: .5rem;
       }
       #contribute h1 {
-        text-shadow: 6px 0 0 rgba(255, 255, 0, 1), 0 6px 0 rgba(255, 0, 255, 1), 0 -6px 0 rgba(0, 255, 255, 1), -6px 0 0 rgba(255, 0, 255, 1);
-        margin-bottom: 1rem;
+        text-shadow: 6px 0 0 rgba(255, 255, 0, 1), 0 6px 0 rgba(255, 0, 255, 1), 0 -6px 0 rgba(0, 255, 255, 1), -6px 0 0 rgba(255, 0, 255, 1), 0 0 16px rgba(0, 0, 0, 0.5);
         color: #111;
       }
       #contribute p {
         background-color: #fff;
         border-radius: 4px;
+        margin-bottom: : 1rem;
         padding: 1rem;
       }
       #us {
@@ -152,6 +157,101 @@
          * see http://commons.wikimedia.org/wiki/User:NuclearVacuum
          */
         background: #fff url('images/america.png') fixed no-repeat 4rem 0rem;
+      }
+
+      /* See d3js.org CSS */
+      .spacer-bottom:before {
+        bottom: -16px;
+        box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.05);
+      }
+      .spacer:after, .spacer:before {
+        background: none repeat scroll 0 0 transparent;
+        content: "";
+        display: block;
+        height: 16px;
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+      }
+      .spacer-top:after {
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+        top: -16px;
+      }
+      .spacer {
+        background: none repeat scroll 0 0 transparent;
+        height: 4rem;
+        overflow: hidden;
+        padding: 0;
+        position: relative;
+      }
+      .spacer-bottom {
+        border-bottom: 1px solid #f0f0f0;
+      }
+      .spacer-top {
+        border-top: 1px solid #f0f0f0;
+      }
+
+
+      /* See http://nicolasgallagher.com/css-drop-shadows-without-images */
+      .drop-shadow {
+        position: relative;
+        margin: 1rem 0 2rem;
+        background: #fff;
+        z-index: 3;
+      }
+      .drop-shadow:before,
+      .drop-shadow:after {
+        content:"";
+        position:absolute;
+        z-index: -1;
+      }
+      /* Lifted corners */
+      .lifted:before,
+      .lifted:after,
+      .lifted-inverse:before,
+      .lifted-inverse:after {
+        left: -30px;
+        width: 80%;
+        height: 20%;
+        max-width: 4rem;
+        max-height: 100px;
+      }
+      .lifted:before,
+      .lifted:after {
+        top: 8px;
+        -webkit-box-shadow: 0 -15px 16px rgba(0, 0, 0, 0.05);
+                box-shadow: 0 -15px 16px rgba(0, 0, 0, 0.05);
+        -webkit-transform: rotate(10deg);
+            -ms-transform: rotate(10deg);
+                transform: rotate(10deg);
+      }
+      .lifted:after {
+        right: -10px;
+        left: auto;
+        max-width: 80%;
+        top: 20px;
+        -webkit-transform: rotate(-1deg);
+            -ms-transform: rotate(-1deg);
+                transform: rotate(-1deg);
+      }
+      .lifted-inverse:before,
+      .lifted-inverse:after {
+        bottom:8px;
+        -webkit-box-shadow: 0 15px 16px rgba(0, 0, 0, 0.05);
+                box-shadow: 0 15px 16px rgba(0, 0, 0, 0.05);
+        -webkit-transform: rotate(-10deg);
+            -ms-transform: rotate(-10deg);
+                transform: rotate(-10deg);
+      }
+      .lifted-inverse:after {
+        bottom: 16px;
+        left: auto;
+        max-width: 60%;
+        max-height: 100px;
+        right: -10px;
+        -webkit-transform: rotate(1deg);
+            -ms-transform: rotate(1deg);
+                transform: rotate(1deg);
       }
     </style>
   </head>
@@ -179,6 +279,8 @@
         </div><!-- .row -->
       </div><!-- .container -->
     </header>
+
+    <div class="spacer spacer-top spacer-bottom"></div>
 
     <!-- Not yet implemented
     <section id="teaser">
@@ -214,6 +316,8 @@
       </div><!-- .jumbotron -->
     </section>
 
+    <div class="spacer spacer-top"></div>
+
     <section id="contribute" data-type="background" data-speed="10">
       <div class="jumbotron">
         <div class="container">
@@ -234,22 +338,25 @@
       </div><!-- .jumbotron -->
     </section>
 
-    <section id="featured" data-type="background" data-speed="10">
-      <div class="jumbotron">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-md-6 col-md-offset-6">
-              <h1>Use it in <a href="https://github.com/acidlabs/chilean-local-kit" title="Chilean Local Kit on Github">Chile</a>,<br/> reproduce it everywhere</h1>
-              <p class="subtitle">The first Local Kit is made in Chile and contains RubyGems and Angular.js modules.</p>
-              <i clasS="fa fa-github"></i> <a href="https://github.com/acidlabs/chilean-local-kit">Chilean Local Kit</a> <small>maintained by <a href="http://www.acid.cl">Acid Labs</a></small>
-              <br/><a href="https://github.com/acidlabs/chilean-local-kit"><img src="http://b.repl.ca/v1/localkit-CL-brightgreen.png" alt=""/></a>
-            </div><!-- .col -->
-          </div><!-- .row -->
-        </div><!-- .container -->
-      </div><!-- .jumbotron -->
+    <section id="featured" data-type="background" data-speed="10" class="drop-shadow lifted">
+      <div id="featured-ghost" class="drop-shadow lifted-inverse">
+        <div class="jumbotron">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-md-6 col-md-offset-6">
+                <h1>Use it in <a href="https://github.com/acidlabs/chilean-local-kit" title="Chilean Local Kit on Github">Chile</a>,<br/> reproduce it everywhere</h1>
+                <p class="subtitle">The first Local Kit is made in Chile and contains RubyGems and Angular.js modules.</p>
+                <i clasS="fa fa-github"></i> <a href="https://github.com/acidlabs/chilean-local-kit">Chilean Local Kit</a> <small>maintained by <a href="http://www.acid.cl">Acid Labs</a></small>
+                <br/><a href="https://github.com/acidlabs/chilean-local-kit"><img src="http://b.repl.ca/v1/localkit-CL-brightgreen.png" alt=""/></a>
+              </div><!-- .col -->
+            </div><!-- .row -->
+          </div><!-- .container -->
+        </div><!-- .jumbotron -->
+      </div><!-- #featured-ghost -->
     </section>
 
     <!-- http://b.repl.ca/v1/localkit-chile-ff00aa.png -->
+    <div class="spacer spacer-bottom" style="height: 1rem"></div>
 
     <footer>
       <div  class="container">
